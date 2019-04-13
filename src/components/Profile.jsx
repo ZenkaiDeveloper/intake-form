@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Vaccine from './Vaccine.js'
 
 import {
   isSignInPending,
@@ -51,7 +52,7 @@ export default class Profile extends Component {
           </p>
         </div>
         <div className="main">
-          
+          <Vaccine />
         </div>
       </div>
 

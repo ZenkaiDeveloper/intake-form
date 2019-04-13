@@ -9,6 +9,7 @@ import {
   signUserOut,
 } from 'blockstack';
 
+
 export default class App extends Component {
 
   constructor(props) {
@@ -33,7 +34,7 @@ export default class App extends Component {
             <Signin handleSignIn={ this.handleSignIn } />
             : <Profile handleSignOut={ this.handleSignOut } />
           }
-      
+
       </div>
     );
   }
